@@ -15,6 +15,10 @@ public class Main {
         personajes.add(new Elfo("Galadriel", 8372, "Magia", "Bien", "Lothlorien"));
         personajes.add(new Elfo("Elrond", 6518, "Espada", "Bien", "Rivendel"));
 
+        personajes.add(new Enano("Gimli", 139, "Hacha", "Bien", "Erebor"));
+        personajes.add(new Enano("Thorin", 195, "Espada", "Bien", "Erebor"));
+        personajes.add(new Enano("Dain", 252, "Hacha", "Bien", "Colinas de Hierro"));
+
         for (Personaje personaje : personajes) {
             personaje.imprimirDetalles();
         }
