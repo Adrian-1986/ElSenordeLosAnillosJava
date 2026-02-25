@@ -23,6 +23,10 @@ public class Main {
         personajes.add(new Hobbit("Sam", 38, "Daga", "Bien", "La Comarca"));
         personajes.add(new Hobbit("Pippin", 29, "Daga", "Bien", "La Comarca"));
 
+        personajes.add(new Orco("Azog", 200, "Maza", "Mal", "Mordor"));
+        personajes.add(new Orco("Ugluk", 60, "Espada", "Mal", "Isengard"));
+        personajes.add(new Orco("Lurtz", 30, "Espada", "Mal", "Isengard"));
+
         for (Personaje personaje : personajes) {
             personaje.imprimirDetalles();
         }
