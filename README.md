@@ -2,7 +2,7 @@
 
 Este repo es mi practica de POO en Java usando personajes de El Senor de los Anillos. Lo hice para afianzar herencia, encapsulacion y polimorfismo de forma clara: una clase base con lo comun, varias razas que heredan, y un metodo que cambia segun el tipo real del objeto. No es un juego ni un framework, es un ejercicio completo y ordenado para demostrar fundamentos.
 
-Elige tu idioma. GitHub no ejecuta JavaScript en el README, por eso un boton real de cambio de idioma no puede funcionar aqui. En su lugar dejo dos secciones plegables: una en Espanol y otra en English.
+Elige tu idioma. dejo dos secciones plegables: una en Espanol y otra en English.
 
 <details open>
   <summary><strong>Espanol</strong></summary>
