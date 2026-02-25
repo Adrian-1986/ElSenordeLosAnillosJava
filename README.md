@@ -2,7 +2,7 @@
 
 Este repo es mi practica de POO en Java usando personajes de El Senor de los Anillos. La idea es simple: una clase base con lo comun, varias razas que heredan, y un metodo que se comporta distinto segun el tipo.
 
-GitHub no ejecuta JavaScript en el README, asi que un boton real de cambio de idioma no puede funcionar aqui. Te dejo las dos versiones en secciones plegables para que elijas cual leer.
+Elige tu idioma
 
 <details open>
   <summary><strong>Espanol</strong></summary>
