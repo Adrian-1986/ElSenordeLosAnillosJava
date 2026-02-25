@@ -1,83 +1,37 @@
 # El Senor de los Anillos (Java)
 
-<div>
-  <button id="toggle-lang" type="button">English</button>
-</div>
+Este repo es mi practica de POO en Java usando personajes de El Senor de los Anillos. La idea es simple: una clase base con lo comun, varias razas que heredan, y un metodo que se comporta distinto segun el tipo.
 
-<div id="lang-es">
+GitHub no ejecuta JavaScript en el README, asi que un boton real de cambio de idioma no puede funcionar aqui. Te dejo las dos versiones en secciones plegables para que elijas cual leer.
 
-## Descripcion
-Proyecto de POO en Java basado en personajes de El Senor de los Anillos. Se implementa herencia, encapsulacion, y polimorfismo con una superclase comun y varias razas.
+<details open>
+  <summary><strong>Espanol</strong></summary>
 
-## Requisitos cumplidos
-- 5 razas diferentes, con 3 personajes cada una, creados en `Main`.
-- 1 superclase con atributos comunes.
-- Atributos en `private`.
-- Setters y Getters para cada atributo.
-- Polimorfismo con `imprimirDetalles()` en la superclase y sobrescritura en cada raza.
+## Que hay dentro
+- `Personaje` es la base con lo comun: `nombre`, `edad`, `arma`, `bando`.
+- Cada raza (`Humano`, `Elfo`, `Enano`, `Hobbit`, `Orco`) agrega un atributo propio.
+- `imprimirDetalles()` vive en la base y se sobreescribe para mostrar lo que cambia en cada raza.
+- En `Main` se crean 3 personajes por raza y se imprime todo desde polimorfismo.
 
-## Estructura
-- Superclase: `Personaje`
-  - Atributos comunes: `nombre`, `edad`, `arma`, `bando`.
-  - Metodos: getters, setters, `imprimirDetalles()`.
-- Razas (subclases): `Humano`, `Elfo`, `Enano`, `Hobbit`, `Orco`.
-  - Cada una agrega un atributo propio y sobrescribe `imprimirDetalles()`.
-
-## Ejecucion
+## Como correrlo
 1. Abrir el proyecto en IntelliJ.
 2. Ejecutar `Main`.
-3. En consola se imprimen los detalles de cada personaje usando polimorfismo.
+3. Ver la salida en consola.
 
-</div>
+</details>
 
-<div id="lang-en" style="display:none;">
+<details>
+  <summary><strong>English</strong></summary>
 
-## Description
-Java OOP project based on The Lord of the Rings characters. It implements inheritance, encapsulation, and polymorphism with a shared superclass and multiple races.
+## What's inside
+- `Personaje` is the base class with common fields: `nombre`, `edad`, `arma`, `bando`.
+- Each race (`Humano`, `Elfo`, `Enano`, `Hobbit`, `Orco`) adds its own field.
+- `imprimirDetalles()` is defined in the base and overridden per race.
+- `Main` creates 3 characters per race and prints everything using polymorphism.
 
-## Requirements covered
-- 5 different races, 3 characters each, created in `Main`.
-- 1 superclass with common attributes.
-- Attributes are `private`.
-- Setters and Getters for each attribute.
-- Polymorphism using `imprimirDetalles()` in the superclass and overridden in each race.
-
-## Structure
-- Superclass: `Personaje`
-  - Common attributes: `nombre`, `edad`, `arma`, `bando`.
-  - Methods: getters, setters, `imprimirDetalles()`.
-- Races (subclasses): `Humano`, `Elfo`, `Enano`, `Hobbit`, `Orco`.
-  - Each one adds its own attribute and overrides `imprimirDetalles()`.
-
-## Run
+## How to run
 1. Open the project in IntelliJ.
 2. Run `Main`.
-3. The console prints each character details using polymorphism.
+3. Check the console output.
 
-</div>
-
-<noscript>
-  <p>Enable JavaScript to toggle the README language.</p>
-</noscript>
-
-<script>
-  (function () {
-    var btn = document.getElementById('toggle-lang');
-    var es = document.getElementById('lang-es');
-    var en = document.getElementById('lang-en');
-    if (!btn || !es || !en) return;
-
-    btn.addEventListener('click', function () {
-      var showingEs = es.style.display !== 'none';
-      if (showingEs) {
-        es.style.display = 'none';
-        en.style.display = 'block';
-        btn.textContent = 'Espanol';
-      } else {
-        es.style.display = 'block';
-        en.style.display = 'none';
-        btn.textContent = 'English';
-      }
-    });
-  })();
-</script>
+</details>
