@@ -19,6 +19,10 @@ public class Main {
         personajes.add(new Enano("Thorin", 195, "Espada", "Bien", "Erebor"));
         personajes.add(new Enano("Dain", 252, "Hacha", "Bien", "Colinas de Hierro"));
 
+        personajes.add(new Hobbit("Frodo", 50, "Daga", "Bien", "La Comarca"));
+        personajes.add(new Hobbit("Sam", 38, "Daga", "Bien", "La Comarca"));
+        personajes.add(new Hobbit("Pippin", 29, "Daga", "Bien", "La Comarca"));
+
         for (Personaje personaje : personajes) {
             personaje.imprimirDetalles();
         }
