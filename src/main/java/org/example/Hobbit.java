@@ -1,6 +1,6 @@
 package org.example;
 
-public class Hobbit extends Personaje {
+public class Hobbit extends Character {
     private String comarca;
 
     public Hobbit(String nombre, int edad, String arma, String bando, String comarca) {

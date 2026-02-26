@@ -1,9 +1,9 @@
 package org.example;
 
-public class Enano extends Personaje {
+public class Dwarf extends Character {
     private String clan;
 
-    public Enano(String nombre, int edad, String arma, String bando, String clan) {
+    public Dwarf(String nombre, int edad, String arma, String bando, String clan) {
         super(nombre, edad, arma, bando);
         this.clan = clan;
     }

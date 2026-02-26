@@ -5,29 +5,29 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<Personaje> personajes = new ArrayList<>();
+        List<Character> personajes = new ArrayList<>();
 
-        personajes.add(new Humano("Aragorn", 87, "Espada", "Bien", "Gondor"));
-        personajes.add(new Humano("Boromir", 40, "Espada", "Bien", "Gondor"));
-        personajes.add(new Humano("Eowyn", 24, "Espada", "Bien", "Rohan"));
+        personajes.add(new Human("Aragorn", 87, "Espada", "Bien", "Gondor"));
+        personajes.add(new Human("Boromir", 40, "Espada", "Bien", "Gondor"));
+        personajes.add(new Human("Eowyn", 24, "Espada", "Bien", "Rohan"));
 
-        personajes.add(new Elfo("Legolas", 2931, "Arco", "Bien", "Bosque Negro"));
-        personajes.add(new Elfo("Galadriel", 8372, "Magia", "Bien", "Lothlorien"));
-        personajes.add(new Elfo("Elrond", 6518, "Espada", "Bien", "Rivendel"));
+        personajes.add(new Elf("Legolas", 2931, "Arco", "Bien", "Bosque Negro"));
+        personajes.add(new Elf("Galadriel", 8372, "Magia", "Bien", "Lothlorien"));
+        personajes.add(new Elf("Elrond", 6518, "Espada", "Bien", "Rivendel"));
 
-        personajes.add(new Enano("Gimli", 139, "Hacha", "Bien", "Erebor"));
-        personajes.add(new Enano("Thorin", 195, "Espada", "Bien", "Erebor"));
-        personajes.add(new Enano("Dain", 252, "Hacha", "Bien", "Colinas de Hierro"));
+        personajes.add(new Dwarf("Gimli", 139, "Hacha", "Bien", "Erebor"));
+        personajes.add(new Dwarf("Thorin", 195, "Espada", "Bien", "Erebor"));
+        personajes.add(new Dwarf("Dain", 252, "Hacha", "Bien", "Colinas de Hierro"));
 
         personajes.add(new Hobbit("Frodo", 50, "Daga", "Bien", "La Comarca"));
         personajes.add(new Hobbit("Sam", 38, "Daga", "Bien", "La Comarca"));
         personajes.add(new Hobbit("Pippin", 29, "Daga", "Bien", "La Comarca"));
 
-        personajes.add(new Orco("Azog", 200, "Maza", "Mal", "Mordor"));
-        personajes.add(new Orco("Ugluk", 60, "Espada", "Mal", "Isengard"));
-        personajes.add(new Orco("Lurtz", 30, "Espada", "Mal", "Isengard"));
+        personajes.add(new Orc("Azog", 200, "Maza", "Mal", "Mordor"));
+        personajes.add(new Orc("Ugluk", 60, "Espada", "Mal", "Isengard"));
+        personajes.add(new Orc("Lurtz", 30, "Espada", "Mal", "Isengard"));
 
-        for (Personaje personaje : personajes) {
+        for (Character personaje : personajes) {
             personaje.imprimirDetalles();
         }
     }

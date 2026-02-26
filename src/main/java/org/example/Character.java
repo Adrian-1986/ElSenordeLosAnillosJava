@@ -1,12 +1,12 @@
 package org.example;
 
-public class Personaje {
+public class Character {
     private String nombre;
     private int edad;
     private String arma;
     private String bando;
 
-    public Personaje(String nombre, int edad, String arma, String bando) {
+    public Character(String nombre, int edad, String arma, String bando) {
         this.nombre = nombre;
         this.edad = edad;
         this.arma = arma;
