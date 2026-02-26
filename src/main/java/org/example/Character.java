@@ -1,54 +1,54 @@
 package org.example;
 
 public class Character {
-    private String nombre;
-    private int edad;
-    private String arma;
-    private String bando;
+    private String name;
+    private int age;
+    private String weapon;
+    private String side;
 
-    public Character(String nombre, int edad, String arma, String bando) {
-        this.nombre = nombre;
-        this.edad = edad;
-        this.arma = arma;
-        this.bando = bando;
+    public Character(String name, int age, String weapon, String side) {
+        this.name = name;
+        this.age = age;
+        this.weapon = weapon;
+        this.side = side;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getName() {
+        return name;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public int getEdad() {
-        return edad;
+    public int getAge() {
+        return age;
     }
 
-    public void setEdad(int edad) {
-        this.edad = edad;
+    public void setAge(int age) {
+        this.age = age;
     }
 
-    public String getArma() {
-        return arma;
+    public String getWeapon() {
+        return weapon;
     }
 
-    public void setArma(String arma) {
-        this.arma = arma;
+    public void setWeapon(String weapon) {
+        this.weapon = weapon;
     }
 
-    public String getBando() {
-        return bando;
+    public String getSide() {
+        return side;
     }
 
-    public void setBando(String bando) {
-        this.bando = bando;
+    public void setSide(String side) {
+        this.side = side;
     }
 
-    public void imprimirDetalles() {
-        System.out.println("Nombre: " + nombre);
-        System.out.println("Edad: " + edad);
-        System.out.println("Arma: " + arma);
-        System.out.println("Bando: " + bando);
+    public void printDetails() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Weapon: " + weapon);
+        System.out.println("Side: " + side);
     }
 }

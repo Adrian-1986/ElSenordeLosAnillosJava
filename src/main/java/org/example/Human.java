@@ -1,26 +1,26 @@
 package org.example;
 
 public class Human extends Character {
-    private String reino;
+    private String kingdom;
 
-    public Human(String nombre, int edad, String arma, String bando, String reino) {
-        super(nombre, edad, arma, bando);
-        this.reino = reino;
+    public Human(String name, int age, String weapon, String side, String kingdom) {
+        super(name, age, weapon, side);
+        this.kingdom = kingdom;
     }
 
-    public String getReino() {
-        return reino;
+    public String getKingdom() {
+        return kingdom;
     }
 
-    public void setReino(String reino) {
-        this.reino = reino;
+    public void setKingdom(String kingdom) {
+        this.kingdom = kingdom;
     }
 
     @Override
-    public void imprimirDetalles() {
-        System.out.println("Raza: Humano");
-        super.imprimirDetalles();
-        System.out.println("Reino: " + reino);
+    public void printDetails() {
+        System.out.println("Race: Human");
+        super.printDetails();
+        System.out.println("Kingdom: " + kingdom);
         System.out.println("-");
     }
 }

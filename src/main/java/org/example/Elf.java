@@ -1,26 +1,26 @@
 package org.example;
 
 public class Elf extends Character {
-    private String bosque;
+    private String forest;
 
-    public Elf(String nombre, int edad, String arma, String bando, String bosque) {
-        super(nombre, edad, arma, bando);
-        this.bosque = bosque;
+    public Elf(String name, int age, String weapon, String side, String forest) {
+        super(name, age, weapon, side);
+        this.forest = forest;
     }
 
-    public String getBosque() {
-        return bosque;
+    public String getForest() {
+        return forest;
     }
 
-    public void setBosque(String bosque) {
-        this.bosque = bosque;
+    public void setForest(String forest) {
+        this.forest = forest;
     }
 
     @Override
-    public void imprimirDetalles() {
-        System.out.println("Raza: Elfo");
-        super.imprimirDetalles();
-        System.out.println("Bosque: " + bosque);
+    public void printDetails() {
+        System.out.println("Race: Elf");
+        super.printDetails();
+        System.out.println("Forest: " + forest);
         System.out.println("-");
     }
 }

@@ -3,8 +3,8 @@ package org.example;
 public class Dwarf extends Character {
     private String clan;
 
-    public Dwarf(String nombre, int edad, String arma, String bando, String clan) {
-        super(nombre, edad, arma, bando);
+    public Dwarf(String name, int age, String weapon, String side, String clan) {
+        super(name, age, weapon, side);
         this.clan = clan;
     }
 
@@ -17,9 +17,9 @@ public class Dwarf extends Character {
     }
 
     @Override
-    public void imprimirDetalles() {
-        System.out.println("Raza: Enano");
-        super.imprimirDetalles();
+    public void printDetails() {
+        System.out.println("Race: Dwarf");
+        super.printDetails();
         System.out.println("Clan: " + clan);
         System.out.println("-");
     }

@@ -1,26 +1,26 @@
 package org.example;
 
 public class Orc extends Character {
-    private String tribu;
+    private String tribe;
 
-    public Orc(String nombre, int edad, String arma, String bando, String tribu) {
-        super(nombre, edad, arma, bando);
-        this.tribu = tribu;
+    public Orc(String name, int age, String weapon, String side, String tribe) {
+        super(name, age, weapon, side);
+        this.tribe = tribe;
     }
 
-    public String getTribu() {
-        return tribu;
+    public String getTribe() {
+        return tribe;
     }
 
-    public void setTribu(String tribu) {
-        this.tribu = tribu;
+    public void setTribe(String tribe) {
+        this.tribe = tribe;
     }
 
     @Override
-    public void imprimirDetalles() {
-        System.out.println("Raza: Orco");
-        super.imprimirDetalles();
-        System.out.println("Tribu: " + tribu);
+    public void printDetails() {
+        System.out.println("Race: Orc");
+        super.printDetails();
+        System.out.println("Tribe: " + tribe);
         System.out.println("-");
     }
 }
